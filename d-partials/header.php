@@ -24,10 +24,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="doc.php">Documentation</a>
                     </li>
-                    <li class="nav-item">
-
-                        <a class="nav-link" href="test.php">Playground</a>
-                    </li>
                 </ul>
             </div>
         </div>
