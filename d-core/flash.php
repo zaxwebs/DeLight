@@ -11,6 +11,12 @@ function setFlash($name, $value)
     $_SESSION[$prefixed] = $value;
 }
 
+function unsetFlash($name)
+{
+    $prefixed = prefixName($name, 'flash');
+    unset($_SESSION[$prefixed]);
+}
+
 function hasFlash(string $name)
 {
     $prefixed = prefixName($name, 'flash');
