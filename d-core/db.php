@@ -18,9 +18,9 @@ function rowCount($query, $args = [])
     return DB::run($query, $args)->rowCount();
 }
 
-/*
-    for fetching one column value such as id or count
-*/
+
+// for fetching one column value such as id or count
+
 function fetchColumn($query, $args = [])
 {
     return DB::run($query, $args)->fetchColumn();

@@ -26,9 +26,8 @@ class DB
         return self::$instance;
     }
 
-    /*
-        proxy to native PDO methods
-    */
+
+    //proxy to native PDO methods
     public static function __callStatic($method, $args)
     {
         return call_user_func_array(array(self::instance(), $method), $args);
