@@ -2,7 +2,7 @@
 
 class DB
 {
-    //singleton DB
+    // singleton DB
 
     protected static $instance = null;
 
@@ -13,7 +13,7 @@ class DB
 
     public static function instance()
     {
-        //if instance is null set it to new PDO object
+        // if instance is null set it to new PDO object
         if (self::$instance === null) {
             $options  = array(
                 PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
@@ -27,7 +27,7 @@ class DB
     }
 
 
-    //proxy to native PDO methods
+    // proxy to native PDO methods
     public static function __callStatic($method, $args)
     {
         return call_user_func_array(array(self::instance(), $method), $args);

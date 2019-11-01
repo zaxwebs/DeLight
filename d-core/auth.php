@@ -1,6 +1,6 @@
 <?php
 
-//auth.php packs helper functions for authentication
+// auth.php packs helper functions for authentication
 
 require_once(__DIR__ . '/load.php');
 
