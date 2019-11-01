@@ -3,6 +3,11 @@
 require_once(__DIR__ . '/load.php');
 loadCore('DB.class.php');
 
+function query($query, $args = [])
+{
+    return DB::run($query, $args);
+}
+
 function fetch($query, $args = [])
 {
     return DB::run($query, $args)->fetch();
