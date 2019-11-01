@@ -16,3 +16,8 @@ function loadCore($file)
 {
     loadFile('d-core/' . $file);
 }
+
+function loadCustom($file)
+{
+    loadFile('d-custom/' . $file);
+}
