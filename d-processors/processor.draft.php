@@ -1,6 +1,6 @@
 <?php
 
-require_once('../core/load.php');
+require_once('../d-core/load.php');
 loadCore('cycle.php');
 cycleStart();
 
