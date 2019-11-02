@@ -19,10 +19,11 @@ const DB_CHAR = 'utf8';
 
 // path helpers
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
-const PARTIALS = ROOT . '/d-partials/';
-const CORE = ROOT . '/d-core/';
-const CONFIG = ROOT . '/d-config/';
-const CUSTOM = ROOT . '/d-custom/'; 
+const DIR_PARTIALS = ROOT . '/d-partials/';
+const DIR_CORE = ROOT . '/d-core/';
+const DIR_CONFIG = ROOT . '/d-config/';
+const DIR_CUSTOM = ROOT . '/d-custom/';
+const DIR_MODEL = ROOT . '/d-model/';
 
 
 // page config such as header and footer can be done at core/page.php
