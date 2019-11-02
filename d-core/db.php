@@ -3,22 +3,22 @@
 require_once(__DIR__ . '/load.php');
 loadCore('DB.class.php');
 
-function query($query, $args = [])
+function query(string $query, array $args = [])
 {
     return DB::run($query, $args);
 }
 
-function fetch($query, $args = [])
+function fetch(string $query, array $args = [])
 {
     return DB::run($query, $args)->fetch();
 }
 
-function fetchAll($query, $args = [])
+function fetchAll(string $query, array $args = [])
 {
     return DB::run($query, $args)->fetchAll();
 }
 
-function rowCount($query, $args = [])
+function rowCount(string $query, array $args = [])
 {
     return DB::run($query, $args)->rowCount();
 }
@@ -26,7 +26,7 @@ function rowCount($query, $args = [])
 
 // for fetching one column value such as id or count
 
-function fetchColumn($query, $args = [])
+function fetchColumn(string $query, array $args = [])
 {
     return DB::run($query, $args)->fetchColumn();
 }
