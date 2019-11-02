@@ -1,0 +1,3 @@
+<?php
+
+//loadCore('db.php');

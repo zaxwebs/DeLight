@@ -1,17 +1,17 @@
 <?php
 
-function prefixName($name, $prefix)
+function prefixName(string $name, string $prefix)
 {
     return $prefix . '-' . $name;
 }
 
-function setFlash($name, $value)
+function setFlash(string $name, $value)
 {
     $prefixed = prefixName($name, 'flash');
     $_SESSION[$prefixed] = $value;
 }
 
-function unsetFlash($name)
+function unsetFlash(string $name)
 {
     $prefixed = prefixName($name, 'flash');
     unset($_SESSION[$prefixed]);

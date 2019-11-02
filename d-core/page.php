@@ -1,6 +1,5 @@
 <?php
 
-require_once(__DIR__ . '/load.php');
 loadCore('flash.php');
 
 // actions to perform at the start of a page
@@ -19,11 +18,11 @@ function putHeader(string $title = null)
 {
     if ($title === null) $title = APP_NAME;
     pageStart();
-    include(PARTIALS . 'header.php');
+    include(DIR_PARTIALS . 'header.php');
 }
 
 function putFooter()
 {
-    include(PARTIALS . 'footer.php');
+    include(DIR_PARTIALS . 'footer.php');
     pageEnd();
 }
