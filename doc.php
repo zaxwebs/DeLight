@@ -60,10 +60,10 @@ putHeader();
             <h3>Including Files and Loading</h3>
             <ul class="list-group">
                 <li class="list-group-item">You can utilize PHP's in-built <span class="pre">include()</span> function.</li>
-                <li class="list-group-item">DeLight has some helper constants that you utilize in <span class="pre">include()</span> like <span class="pre">ROOT</span>. For example, <span class="pre">include(ROOT . 'core/load.php')</span>. This allows for loading files with absolute paths irresepective of your current file's location.</li>
-                <li class="list-group-item">Other similar constants are <span class="pre">CORE</span> which refers to <span class="pre">d-core/</span>, <span class="pre">CONFIG</span> which refers to <span class="pre">d-config/</span>. You can take a look at <span class="pre">d-config/core.php</span> to see all the path helper constants.</li>
+                <li class="list-group-item">DeLight has some helper constants that you utilize in <span class="pre">include()</span> like <span class="pre">ROOT</span>. For example, <span class="pre">include(ROOT . 'core/load.php')</span>. This allows for loading files with absolute paths irrespective of your current file's location.</li>
+                <li class="list-group-item">Other similar constants are <span class="pre">DIR_CORE</span> which refers to <span class="pre">d-core/</span>, <span class="pre">DIR_CONFIG</span> which refers to <span class="pre">d-config/</span>. You can take a look at <span class="pre">d-config/core.php</span> to see all the path helper constants.</li>
                 <li class="list-group-item">Additionally, for including functions you can utilize <span class="pre">loadFile()</span>, <span class="pre">loadCore()</span>, etc. functions from <span class="pre">d-core/load.php</span>.</li>
-                <li class="list-group-item">For files like partials (template files) where you need to maintain scope, include them in <span class="pre">d-partials/</span> and then utilize <span class="pre">include(PARTIALS . 'filename.php')</span> in the file you want to import to.</li>
+                <li class="list-group-item">For files like partials (template files) where you need to maintain scope, include them in <span class="pre">d-partials/</span> and then utilize <span class="pre">include(DIR_PARTIALS . 'filename.php')</span> in the file you want to import to.</li>
             </ul>
         </div>
         <div class="mb-5">
