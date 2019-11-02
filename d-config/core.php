@@ -23,7 +23,7 @@ const DIR_PARTIALS = ROOT . '/d-partials/';
 const DIR_CORE = ROOT . '/d-core/';
 const DIR_CONFIG = ROOT . '/d-config/';
 const DIR_CUSTOM = ROOT . '/d-custom/';
-const DIR_MODEL = ROOT . '/d-model/';
+const DIR_MODEL = ROOT . '/d-models/';
 
 
 // page config such as header and footer can be done at core/page.php

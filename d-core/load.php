@@ -21,3 +21,8 @@ function loadCustom(string $file)
 {
     loadFile('d-custom/' . $file);
 }
+
+function loadModel(string $file)
+{
+    loadFile('d-models/' . $file);
+}

@@ -6,7 +6,7 @@ cycleStart();
 
 loadCore('page.php');
 loadCore('flash.php');
-putHeader(null, false);
+putHeader();
 ?>
 <section>
     <div class="container">
