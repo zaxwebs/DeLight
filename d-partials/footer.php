@@ -1,7 +1,7 @@
 </div>
 <footer id="sticky-footer" class="footer bg-primary text-white pt-4 pb-4">
     <div class="container">
-        &copy; <?= APP_NAME ?> by <a class="text-white" href="#">Zack Webster</a>
+        &copy; <?= APP_NAME ?> by <a class="text-white" href="https://github.com/zaxwebs">Zack Webster</a>
     </div>
 </footer>
 </body>

@@ -18,7 +18,7 @@ putHeader(null, false);
                         A compact PHP 7 pretty-procedural framework offering a foundation for quickly building lightweight apps.<br />
                         DeLight is aimed at being flexible and easy to pick up, perfect to get you up and running in no time.<br />
                     </p>
-                    <a class="btn btn-primary mb-2" href="#">Download via GitHub</a> <a class="btn btn-secondary mb-2" href="doc.php">Documentation</a>
+                    <a class="btn btn-primary mb-2" href="https://github.com/zaxwebs/DeLight">Download via GitHub</a> <a class="btn btn-secondary mb-2" href="doc.php">Documentation</a>
                 </div>
             </div>
             <div data-aos="fade-left" class="col-md-7 d-flex align-items-center mb-3">
