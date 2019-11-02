@@ -1,8 +1,6 @@
 <?php
 
-// auth.php packs helper functions for authentication
-
-require_once(__DIR__ . '/load.php');
+// validation.php packs helper functions for validation
 
 function isEmail(string $string)
 {

@@ -21,7 +21,8 @@ const DB_CHAR = 'utf8';
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 const PARTIALS = ROOT . '/d-partials/';
 const CORE = ROOT . '/d-core/';
-const CONFIG = ROOT . '/d-config/'; 
+const CONFIG = ROOT . '/d-config/';
+const CUSTOM = ROOT . '/d-custom/'; 
 
 
 // page config such as header and footer can be done at core/page.php

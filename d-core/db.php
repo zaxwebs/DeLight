@@ -1,6 +1,5 @@
 <?php
 
-require_once(__DIR__ . '/load.php');
 loadCore('DB.class.php');
 
 function query(string $query, array $args = [])
