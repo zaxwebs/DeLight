@@ -6,12 +6,12 @@ function redirect(string $url = '')
     exit;
 }
 
-function GET(string $key, $default = null)
+function _get(string $key, $default = null)
 {
     return isset($_GET[$key]) ? $_GET[$key] : $default;
 }
 
-function POST(string $key, $default = null)
+function _post(string $key, $default = null)
 {
     return isset($_POST[$key]) ? $_POST[$key] : $default;
 }
