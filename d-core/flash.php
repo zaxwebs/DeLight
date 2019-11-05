@@ -35,9 +35,9 @@ function getFlash(string $name, bool $reset = true)
     }
 }
 
-function echoFlash(string $name, bool $reset = true)
+function echoFlash(string $name, string $default = null,  bool $reset = true)
 {
-    echo getFlash($name, $reset);
+    echo hasFlash($name) ? getFlash($name, $reset) : $default;
 }
 
 function setAlert(string $message, string $type = 'info', string $name = 'primary')
