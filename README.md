@@ -5,4 +5,4 @@ DeLight is aimed at being flexible and easy to pick up, perfect to get you up an
 ## Getting Started
 1. Download or clone the repo from GitHub.
 2. Configure your settings in d-config/core.php.
-3. You can now start working with DeLight.
+3. Visit /doc.php.
